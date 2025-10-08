@@ -3,63 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Milagros Detalles</title>
+  <title>DETALLES MILAGROS</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Milagros Detalles</h1>
-    <p class="slogan">Rosas hecha a mano, detalle que enamora</p>
-  </header>
+  <div class="background-overlay"></div>
 
-  <main>
-    <section class="about">
-      <h2>Sobre Nosotros</h2>
-      <p>
-        Creamos rosas tejidas y artesanales con amor y dedicación. Cada pieza es única,
-        hecha completamente a mano, ideal para regalar o decorar tus espacios.
-      </p>
-    </section>
+  <div class="container">
+    <header class="header">
+      <img src="img/logo.png" alt="Logo Rosas Tejidas" class="logo" />
+      
+      <h1>DETALLES MILAGROS</h1>
+      <p class="subheader">Detalles con amor y elegancia</p>
+    </header>
 
-    <section class="catalogs">
-      <h2>Nuestros Catálogos</h2>
-      <div class="catalog-grid">
-        <div class="catalog">
-          <img src="img/catalogo1.jpg" alt="Catálogo 1" />
-          <h3>Rosas de Lana</h3>
-          <button onclick="openPDF('pdf/catalogo1.pdf')">Ver Catálogo</button>
-          <button class="whatsapp" onclick="openWhatsApp('Catálogo 1 - Rosas de Lana')">
-            Pedir por WhatsApp
-          </button>
-        </div>
 
-        <div class="catalog">
-          <img src="img/catalogo2.jpg" alt="Catálogo 2" />
-          <h3>Rosas Llaveros</h3>
-          <button onclick="openPDF('pdf/catalogo2.pdf')">Ver Catálogo</button>
-          <button class="whatsapp" onclick="openWhatsApp('Catálogo 2 - Rosas de Hilo')">
-            Pedir por WhatsApp
-          </button>
-        </div>
+    <section class="link-blocks">
+      <div class="link-card">
+        <h3>🌷 Catálogo 1 — Rosas de Lana</h3>
+        <button class="btn-primary" onclick="openPDF('pdf/catalogo1.pdf')">Ver Catálogo</button>
+        <button class="btn-whatsapp" onclick="openWhatsApp('Catálogo 1 — Rosas de Lana')">
+          💬 Pedir por WhatsApp
+        </button>
+      </div>
+      <div class="link-card">
+        <h3>🌹 Catálogo 2 — Rosas para llaveros</h3>
+        <button class="btn-primary" onclick="openPDF('pdf/catalogo2.pdf')">Ver Catálogo</button>
+        <button class="btn-whatsapp" onclick="openWhatsApp('Catálogo 2 — Rosas de Hilo')">
+          💬 Pedir por WhatsApp
+        </button>
+      </div>
 
-        <div class="catalog">
-          <img src="img/catalogo3.jpg" alt="Catálogo 3" />
-          <h3>Rosas Personalizadas</h3>
-          <button onclick="openPDF('pdf/catalogo3.pdf')">Ver Catálogo</button>
-          <button class="whatsapp" onclick="openWhatsApp('Catálogo 3 - Rosas Personalizadas')">
-            Pedir por WhatsApp
-          </button>
-        </div>
+      <div class="link-card">
+        <h3>💐 Catálogo 3 — Rosas Personalizadas</h3>
+        <button class="btn-primary" onclick="openPDF('pdf/catalogo3.pdf')">Ver Catálogo</button>
+        <button class="btn-whatsapp" onclick="openWhatsApp('Catálogo 3 — Rosas Personalizadas')">
+          💬 Pedir por WhatsApp
+        </button>
       </div>
     </section>
 
-    <section class="contact">
-      <h2>Contáctanos</h2>
-      <p>📞 WhatsApp: <a href="https://wa.me/51900000000" target="_blank">+51 900 000 000</a></p>
-      <p>📧 Correo: <a href="mailto:rosasartesanales@gmail.com">rosasartesanales@gmail.com</a></p>
-      <p>📍 Ubicación: Lima, Perú</p>
-    </section>
-  </main>
+      <section class="galeria-tarjeta">
+    <h2>Detalles Realizados ✨✨</h2>
+    
+    <div class="galeria">
+      <!-- Aquí van tus imágenes -->
+      <img src="img/detalle1.png" alt="Detalle 1">
+      <img src="img/detalle2.png" alt="Detalle 2">
+      <img src="img/detalle3.png" alt="Detalle 3">
+      <img src="img/detalle4.png" alt="Detalle 4">
+      <img src="img/detalles5.png" alt="Detalle 5">
+      <img src="img/detalles6.png" alt="Detalle 6">
+      <img src="img/detalle4.png" alt="Detalle 4">
+      <img src="img/detalles5.png" alt="Detalle 5">
+      <img src="img/detalles6.png" alt="Detalle 6">
+    </div>
+  </section>
+
+
+    <footer class="footer">
+      <p>📧 <a href="mailto:rosasartesanales@gmail.com">milagrossorianomachacuay@gmail.com</a></p>
+      <p>📍 Lima, Perú</p>
+      <p>© 2025 Detalles Milagros</p>
+    </footer>
+  </div>
+
+  <a href="https://wa.me/51995982496" target="_blank" class="whatsapp-float" title="Chatea con nosotros">
+    <img src="img/WhatsApp_icon.png" alt="WhatsApp" />
+  </a>
 
   <script src="script.js"></script>
 </body>

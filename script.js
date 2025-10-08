@@ -1,10 +1,14 @@
-function openPDF(pdfPath) {
-  window.open(pdfPath, "_blank");
+// Abrir PDF en nueva pestaña
+function openPDF(url) {
+  window.open(url, '_blank');
 }
 
-function openWhatsApp(productName) {
-  const phone = "51992269562"; // 🔹 Cambia por tu número de WhatsApp real
-  const message = `Hola 👋, estoy interesado en el ${productName}. ¿Podrías darme más información?`;
-  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-  window.open(url, "_blank");
+// Enviar mensaje por WhatsApp
+function openWhatsApp(catalogo) {
+  const numero = "51995982496"; // cambia tu número si es necesario
+  const mensaje = `Hola 🌸, estoy interesad@ en ${catalogo}. ¿Podrías darme más información?`;
+  const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+  window.open(url, '_blank');
 }
+
+console.log("Página Detalles Milagros cargada correctamente 🌸");
