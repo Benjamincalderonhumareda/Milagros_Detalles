@@ -12,4 +12,3 @@ function openWhatsApp(catalogo) {
 }
 
 console.log("Página Detalles Milagros cargada correctamente 🌸");
-
