@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milagros Detalles</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Milagros Detalles</h1>
+    <p class="slogan">Rosas hecha a mano, detalle que enamora</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Creamos rosas tejidas y artesanales con amor y dedicación. Cada pieza es única,
+        hecha completamente a mano, ideal para regalar o decorar tus espacios.
+      </p>
+    </section>
+
+    <section class="catalogs">
+      <h2>Nuestros Catálogos</h2>
+      <div class="catalog-grid">
+        <div class="catalog">
+          <img src="img/catalogo1.jpg" alt="Catálogo 1" />
+          <h3>Rosas de Lana</h3>
+          <button onclick="openPDF('pdf/catalogo1.pdf')">Ver Catálogo</button>
+          <button class="whatsapp" onclick="openWhatsApp('Catálogo 1 - Rosas de Lana')">
+            Pedir por WhatsApp
+          </button>
+        </div>
+
+        <div class="catalog">
+          <img src="img/catalogo2.jpg" alt="Catálogo 2" />
+          <h3>Rosas Llaveros</h3>
+          <button onclick="openPDF('pdf/catalogo2.pdf')">Ver Catálogo</button>
+          <button class="whatsapp" onclick="openWhatsApp('Catálogo 2 - Rosas de Hilo')">
+            Pedir por WhatsApp
+          </button>
+        </div>
+
+        <div class="catalog">
+          <img src="img/catalogo3.jpg" alt="Catálogo 3" />
+          <h3>Rosas Personalizadas</h3>
+          <button onclick="openPDF('pdf/catalogo3.pdf')">Ver Catálogo</button>
+          <button class="whatsapp" onclick="openWhatsApp('Catálogo 3 - Rosas Personalizadas')">
+            Pedir por WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contáctanos</h2>
+      <p>📞 WhatsApp: <a href="https://wa.me/51900000000" target="_blank">+51 900 000 000</a></p>
+      <p>📧 Correo: <a href="mailto:rosasartesanales@gmail.com">rosasartesanales@gmail.com</a></p>
+      <p>📍 Ubicación: Lima, Perú</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
