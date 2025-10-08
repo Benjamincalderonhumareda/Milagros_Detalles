@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosas Tejidas & Artesanales</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <div class="container">
+    <header class="header">
+      <img src="img/logo.png" alt="Logo Rosas Tejidas" class="logo" />
+      <h1>Rosas Tejidas & Artesanales</h1>
+      <p class="subheader">Detalles que florecen con amor 🌸</p>
+    </header>
+
+    <section class="links-block">
+      <div class="link-card">
+        <h3>🌷 Catálogo 1 — Rosas de Lana</h3>
+        <button class="btn-primary" onclick="openPDF('pdf/catalogo1.pdf')">Ver Catálogo</button>
+        <button class="btn-whatsapp" onclick="openWhatsApp('Catálogo 1 — Rosas de Lana')">Pedir por WhatsApp</button>
+      </div>
+
+      <div class="link-card">
+        <h3>🌹 Catálogo 2 — Rosas de Hilo</h3>
+        <button class="btn-primary" onclick="openPDF('pdf/catalogo2.pdf')">Ver Catálogo</button>
+        <button class="btn-whatsapp" onclick="openWhatsApp('Catálogo 2 — Rosas de Hilo')">Pedir por WhatsApp</button>
+      </div>
+
+      <div class="link-card">
+        <h3>💐 Catálogo 3 — Rosas Personalizadas</h3>
+        <button class="btn-primary" onclick="openPDF('pdf/catalogo3.pdf')">Ver Catálogo</button>
+        <button class="btn-whatsapp" onclick="openWhatsApp('Catálogo 3 — Rosas Personalizadas')">Pedir por WhatsApp</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>📧 <a href="mailto:rosasartesanales@gmail.com">rosasartesanales@gmail.com</a></p>
+      <p>📍 Lima, Perú</p>
+      <p>© 2025 Rosas Tejidas & Artesanales</p>
+    </footer>
+  </div>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51900000000" target="_blank" class="whatsapp-float" title="Chatea con nosotros 💬">
+    <img src="img/whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
