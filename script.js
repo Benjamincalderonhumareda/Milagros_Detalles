@@ -5,10 +5,11 @@ function openPDF(url) {
 
 // Enviar mensaje por WhatsApp
 function openWhatsApp(catalogo) {
-  const numero = "51995982496"; // cambia tu número si es necesario
+  const numero = "51992269562"; // cambia tu número si es necesario
   const mensaje = `Hola 🌸, estoy interesad@ en ${catalogo}. ¿Podrías darme más información?`;
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
   window.open(url, '_blank');
 }
 
 console.log("Página Detalles Milagros cargada correctamente 🌸");
+
